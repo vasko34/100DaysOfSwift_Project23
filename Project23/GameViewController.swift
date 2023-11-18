@@ -1,13 +1,5 @@
-//
-//  GameViewController.swift
-//  Project23
-//
-//  Created by User on 10.11.23.
-//
-
 import UIKit
 import SpriteKit
-import GameplayKit
 
 class GameViewController: UIViewController {
 
@@ -18,7 +10,7 @@ class GameViewController: UIViewController {
             // Load the SKScene from 'GameScene.sks'
             if let scene = SKScene(fileNamed: "GameScene") {
                 // Set the scale mode to scale to fit the window
-                scene.scaleMode = .aspectFill
+                scene.scaleMode = .fill
                 
                 // Present the scene
                 view.presentScene(scene)
